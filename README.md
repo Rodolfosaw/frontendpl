@@ -1,28 +1,24 @@
 # Avaliação Pleno
-Olá desenvolvedor!\
-Tudo bem?! 😊\
-\
-Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor estilo de programar e resolver problemas.
+1. Primeiramente, acredito que seja importante frisar que eu já havia desenvolvido um cenário semelhante à proposta deste projeto.
+2. Desenvolvi grande parte do código há um ano e meio, no intuito de exemplificar uma apresentação, via web, para alunos da 
+Universidade Anhembi Morumbi, aspectos da conversão de React em TypeScript, bem como demonstrar que TypeScript possui mais recursos 
+que o JavaScript, como prototipagem, tipos e interfaces para descrever os dados que estão sendo utilizados, recursos genéricos e JS 
+para projetos de grande porte, melhor estruturação de código e técnicas de programação orientadas a objetos etc. O material foi 
+disponibilizado para os alunos que acompanharam a apresentação.
+3. Com o código-base em mãos, apliquei as alterações necessárias para adequação à proposta do teste.
+4. A temática Pokémon foi utilizada durante a apresentação. Suprimi este tema para utilizar o código noutros projetos. Resgatei 
+novamente devido à autonomia de criatividade da proposta, bem como por inferência ao PokeAPI.
+5. Todos os cards são baseados no Pokedex, disponível em: https://www.pokemon.com/br/pokedex/
 
-## O que fazer
-1. Fazer um fork desse repositório e trabalhar no seu ambiente.
-2. Replicar o layout do link abaixo:\
-[Link para o layout](https://xd.adobe.com/view/c715f110-fbd4-4323-be0c-0e453c1450db-9246)
-2. Utilizar a [PokeAPI](https://pokeapi.co/) para trazer os itens e renderizar nos cards da melhor forma possível. Você pode escolher quais informações e imagens vão aparecer no card.
-3. Implementar a funcionalidade de busca na melhor forma possível.
-4. Implementar a funcionalidade de paginação(carregar mais) dos cards na melhor forma possível.
-5. Os cliques nos botões de editar/excluir/novo card podem exibir uma mensagem pro usuário de que a funcionalidade não foi implementada.
-6. Ao finalizar a avaliação modifique esse README com as instruções de como podemos fazer o seu código rodar na nossa máquina. Ou seja, passo a passo do que instalar e de quais comandos rodar para podermos visualizar o seu trabalho!
-7. Realizar um Pull Request para o nosso repositório e mandar um e-mail para pedro.paradella@impar.com.br com o assunto "Avaliação Pleno", informando que finalizou a avaliação e colocando o link do Pull Request. 
-
-## Dicas
-* Não foi definido limite de linhas e colunas, portanto fique à vontade para tal escolha.
-* Gostamos de interfaces limpas e elegantes.
-
-## Quais tecnologias usar
-* Deixaremos a seu critério qual tecnologia utilizar no entanto você terá mais pontos conosco se utilizar React para criação da interface e também o uso de pré-processadores/styled-components para o CSS.
+## Como executar a aplicação?
+1. A princípio, com auxílio do terminal, é necessário acessar a pasta Poke e instalar os módulos do Node dentro do projeto, por intermédio
+do seguinte comando: npm install
+2. Obs.: Para facilitar, antes de executar o primeiro passo, instale o Node e o NPM em sua máquina.
+3. Em seguida, para iniciar a aplicação, execute o seguinte comando: npm start
+4. Uma aba do seu browser padrão deve abrir automaticamente com o comando do passo 3. Url local utilizada: http://localhost:3000/ 
 
 ## Desafios se você se sentir confiante
-* Colocar em algum lugar do site uma integração com o clima tempo. Deixaremos a seu critério de onde colocar e quais funcionalidades terá.
-* Precisa ser criada uma conta free para o consumo da API clima tempo.
-* [Link da API clima tempo](https://advisor.climatempo.com.br/)
+1. Ainda que o prazo para entrega do teste seja de uma semana, optei por não cumprir com o desafio opcional. Ainda preciso de mais conhecimento 
+em React, como, por exemplo, consumir APIs externas.
+2. O prazo para a entrega do teste é compatível com o tempo necessário para aquisição desse conhecimento, no entando, como já aguardo devolutivas 
+de outros processos seletivos, avaliei ser mais propício entregar o projeto sem o cumprimento do desafio opcional.
